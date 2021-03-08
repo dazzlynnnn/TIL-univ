@@ -1,0 +1,4 @@
+cat,donkey,lion,tiger,mouse,rabbit,bird
+eagle,elephant,snake dog,giraffe,zebra
+bird bear,fox,dragon,wolf,chicken,bee,
+butterfly,fly,puma,camel, cobra,ant

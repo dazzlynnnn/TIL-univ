@@ -1,0 +1,9 @@
+
+*.pbxproj
+*.xcworkspacedata
+*.plist
+*.xcuserstate
+*.xcsettings
+OOP/HW1/.classpath
+OOP/HW1/.project
+*.prefs
