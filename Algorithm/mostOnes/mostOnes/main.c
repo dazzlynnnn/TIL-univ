@@ -14,7 +14,7 @@
 
 void makeArray(int A[][COLS]){
     for (int r = 0; r < ROWS; r++){
-        int count = rand() % 9;
+        int count = rand() % 8;
         for (int i = 0; i < count; i++)
             A[r][i] = 1;
         for (int j = count; j < COLS; j++)
@@ -52,13 +52,13 @@ int mostOnes(int A[][COLS]){
     while(1){
         while(A[i][j]==1){
             j++;
-            if (j == COLS)
+            if (j == COLS-1)
                 return i;
         }
         row = i;
         while(A[i][j]==0){
             i++;
-            if (i == COLS)
+            if (i == COLS-1)
                 return row;
         }
     }
