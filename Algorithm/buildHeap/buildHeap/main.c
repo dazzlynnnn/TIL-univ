@@ -86,7 +86,8 @@ int main(int argc, const char * argv[]) {
     scanf("%d", &_Heap.n);
     for (int i=1; i<=_Heap.n; i++)
         _Heap.H[i] = rand() % 100;
-    buildHeap();
+    //buildHeap();
+    rbuildHeap(1);
     printHeap();
     getchar();
     inPlaceHeapSort();
