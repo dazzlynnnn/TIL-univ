@@ -43,7 +43,8 @@ void findIndexPair(Dict D[], int A[], int s){
         int v = s - A[i];
         j = findElement(D, v);
         if (j!=-1){
-            printf("Found");
+            printf("(%d, %d)\n", i, j);
+            break;
         }
     }
     if (j==-1)
@@ -67,7 +68,7 @@ int main(int argc, const char * argv[]) {
         printf("(%d, %d) ", D[i].elem, D[i].idx);
     printf("\n");
     
-    findIndexPair(D, A, 13);
+    findIndexPair(D, A, 2);
     
     return 0;
 }
